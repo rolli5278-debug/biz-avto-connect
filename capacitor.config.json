@@ -1,0 +1,10 @@
+{
+  "appId": "app.lovable.70ac44e6f08243888cae9d5b04c5c502",
+  "appName": "Do'kon Boshqaruv",
+  "webDir": "dist",
+  "server": {
+    "url": "https://70ac44e6-f082-4388-8cae-9d5b04c5c502.lovableproject.com?forceHideBadge=true",
+    "cleartext": true
+  }
+}
+

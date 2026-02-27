@@ -1,0 +1,97 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 30 25% 93%;
+    --foreground: 20 10% 15%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 20 10% 15%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 20 10% 15%;
+
+    --primary: 174 60% 42%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 30 20% 88%;
+    --secondary-foreground: 20 10% 15%;
+
+    --muted: 30 15% 90%;
+    --muted-foreground: 20 8% 50%;
+
+    --accent: 174 55% 48%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 30 15% 85%;
+    --input: 30 15% 85%;
+    --ring: 174 60% 42%;
+
+    --radius: 0.75rem;
+
+    --sidebar-background: 30 20% 96%;
+    --sidebar-foreground: 20 10% 25%;
+    --sidebar-primary: 174 60% 42%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 30 15% 92%;
+    --sidebar-accent-foreground: 20 10% 25%;
+    --sidebar-border: 30 15% 88%;
+    --sidebar-ring: 174 60% 42%;
+  }
+
+  .dark {
+    --background: 20 10% 10%;
+    --foreground: 30 15% 92%;
+
+    --card: 20 10% 14%;
+    --card-foreground: 30 15% 92%;
+
+    --popover: 20 10% 14%;
+    --popover-foreground: 30 15% 92%;
+
+    --primary: 174 60% 42%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 20 10% 18%;
+    --secondary-foreground: 30 15% 92%;
+
+    --muted: 20 10% 18%;
+    --muted-foreground: 30 10% 60%;
+
+    --accent: 174 55% 48%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 62% 30%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 20 10% 20%;
+    --input: 20 10% 20%;
+    --ring: 174 60% 42%;
+
+    --sidebar-background: 20 10% 8%;
+    --sidebar-foreground: 30 15% 90%;
+    --sidebar-primary: 174 60% 42%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 20 10% 14%;
+    --sidebar-accent-foreground: 30 15% 90%;
+    --sidebar-border: 20 10% 16%;
+    --sidebar-ring: 174 60% 42%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+}
+
